@@ -4,9 +4,9 @@
 
 Feature Name                   | Description
 ------------------------------ | ------------
- activity                      |
- subject                       |        
- tBodyAcc_mean_X               |
+ activity                      | The activity performed during the observations.  One of 6 values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, or LAYING
+ subject                       | A number 1-30 indicating which of the 30 subjects was performing the action
+ tBodyAcc_mean_X               | 
 tBodyAcc_mean_Y                |       
  tBodyAcc_mean_Z               |
 tBodyAcc_std_X                 |           
