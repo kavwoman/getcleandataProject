@@ -43,12 +43,12 @@ test_data <- read.table("UCI HAR Dataset/test/X_test.txt")
 # Load the feature list
 feature_list <- read.table("UCI HAR Dataset/features.txt")
 
-# Load the train/test activity data and descriptive activity names
+# Load the train/test activity data
 train_activity <- read.table("UCI HAR Dataset/train/y_train.txt")
 test_activity <- read.table("UCI HAR Dataset/test/y_test.txt")
 
 # Load the 6 labels (WALKING, LAYING, etc.) corresponding to the activity data
-activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", ) 
+activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt") 
 
 # Load the train/test subject label data (i.e. one label for each observation)
 train_subjects <- read.table("UCI HAR Dataset/train/subject_train.txt")
